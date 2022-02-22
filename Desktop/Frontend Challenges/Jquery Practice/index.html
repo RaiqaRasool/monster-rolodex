@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="countdown/responsive-flip-countdown/style.css">
+    <title>Document</title>
+    <style>
+        .circle{
+            border-radius: 50%;
+        }
+        .red{
+            height: 100px;
+            width: 100px;
+            margin:20px;
+            padding:10px;
+            border:4px solid black;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello this is counter for new year</p>
+    <div id="myFlipper" class="flipper" 
+     data-reverse="true"
+     data-datetime="2022-01-01 00:00:00" 
+     data-template="ddd|HH|ii|ss" 
+     data-labels="Days|Hours|Minutes|Seconds"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
+<script src="countdown/responsive-flip-countdown/jquery.flipper-responsive.js"></script>
+<script>
+  jQuery(function($){
+    $('#myFlipper').flipper('init');
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+$background_color:blue;
+$color:("orange":orange,
+"red":red,
+"green":green);
+body{
+    background-color:map-get($color,"green");
+}
