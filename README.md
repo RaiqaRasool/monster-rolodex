@@ -6,6 +6,7 @@ Did this project as a practice during React Course
 
 **Concepts I learnt**
 
+* SPA
 * State
 * Components
 * Props
